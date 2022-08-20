@@ -1,6 +1,6 @@
 
-#USER SHOULD EDIT THIS LINE WITH THE SYSTEM'S LAPACK LIBRARY
-lapack_dir=/home/robert/.miniconda/envs/py/lib
+#USER SHOULD EDIT THIS LINE WITH THE DIRECTORY CONTAINING LAPACK LIBRARY
+lapack_dir=/path/to/system/libpack/directory
 #USER SHOULD NOT EDIT ANYTHING BELOW THIS LINE
 
 #get current directory
