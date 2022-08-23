@@ -6,8 +6,6 @@ The branch and bound algorithm uses a novel semidefinite relaxation of the mutua
 
 We rely on the open source [SCS solver of O'Donoghue et al](https://github.com/cvxgrp/scs) for solving the semidefinite relaxations, so we thank that team for their high quality solver.
 
-## Usage
-
 The branch and bound solver takes as input an $n$ by $n$ covariance matrix $\Sigma$, such that the $\Sigma_{i,j}$ gives the covariance of the signals received at candidate locations $i$ and $j$. The user should also specify $k$, the number of sensors to be placed. Additional arguments specify the ...
 
 After installation (see directions below), the Python package can be imported with `import max_mutual_info`. To call branch and bound algorithm, use the function `max_mutual_info.run_BnB`. Detailed information on this functions syntax can be found in its documentation string.
